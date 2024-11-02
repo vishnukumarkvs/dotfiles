@@ -8,10 +8,10 @@ zoxide init fish | source
 starship init fish | source
 
 alias k=kubectl
-alias kp='kubectl get po'
-alias ks='kubectl get sts'
-alias kd='kubectl get deploy'
-alias kcm='kubectl get cm'
+alias kgp='kubectl get po'
+alias kgs='kubectl get sts'
+alias kgd='kubectl get deploy'
+alias kgc='kubectl get cm'
 
 alias stk='starship toggle kubernetes'
 alias nhs='nix run nixpkgs#home-manager -- switch --flake nix/#$USER'
