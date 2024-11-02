@@ -1,0 +1,15 @@
+format = """
+$directory\
+$git_branch\
+$kubernetes\
+$cmd_duration\
+$character
+"""
+
+[fill]
+style = "bold white"
+
+[kubernetes]
+disabled = false
+format = '☸ [$context \($namespace\)]($style) '
+style = 'bold blue'
