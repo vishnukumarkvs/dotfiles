@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
-
+export EDITOR=hx
 zoxide init fish | source
 starship init fish | source
 
@@ -19,6 +19,7 @@ switcher init fish | source
 
 # eza
 alias ld='eza -lh  --total-size'
+alias y='yazi'
 
 function s --wraps switcher
     kubeswitch $argv

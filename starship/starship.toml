@@ -10,6 +10,6 @@ $character
 style = "bold white"
 
 [kubernetes]
-disabled = false
+disabled = true
 format = '☸ [$context \($namespace\)]($style) '
 style = 'bold blue'

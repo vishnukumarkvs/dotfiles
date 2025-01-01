@@ -15,8 +15,9 @@ config.default_prog = { "/home/vishnukvs/.nix-profile/bin/fish" }
 -- Add more settings here, for example:
 config.font = wezterm.font("JetBrains Mono")
 config.font_size = 11.0
-config.color_scheme = "Dracula"
-config.window_background_opacity = 0.95
+--config.color_scheme = 'Gruvbox Dark (Gogh)'
+config.color_scheme = 'Galaxy'
+--config.window_background_opacity = 0.95
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = true
 config.window_padding = {
