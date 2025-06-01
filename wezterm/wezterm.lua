@@ -9,6 +9,8 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+config.default_prog = { "/bin/zsh", "-l", "-c", "zellij" }
+
 -- Settings go here:
 config.default_prog = { "/home/vishnukvs/.nix-profile/bin/fish" }
 
