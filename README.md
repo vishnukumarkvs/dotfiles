@@ -1,7 +1,7 @@
 # My dotfiles
 
-brew bundle dump --> for Brewfile
-brew bundle install
+- brew bundle dump --> for Brewfile
+- brew bundle install
 
 ## Automation
 
