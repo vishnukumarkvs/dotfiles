@@ -1,5 +1,8 @@
 # My dotfiles
 
+brew bundle dump --> for Brewfile
+brew bundle install
+
 ## Automation
 
 - This github repo is within github-copy in my local directory
