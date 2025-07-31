@@ -3,7 +3,11 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
+alias c='hx ~/.zshrc'
+
 alias y='yazi'
+alias ls='eza'
+alias t='touch'
 
 alias k='kubectl'
 
@@ -71,5 +75,12 @@ alias kall='kubectl get pods,svc,deployments,statefulsets,configmaps,secrets'
 export PATH="$PATH:/Users/kvsvishnukumar/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# SOPS
+export SOPS_AGE_KEY_FILE=$HOME/.config/sops/age/keys.txt
+
 export PATH=$PATH:$(go env GOPATH)/bin
 eval "$(atuin init zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
