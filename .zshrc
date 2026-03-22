@@ -2,6 +2,7 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+eval "$(fzf --zsh)"
 
 alias c='hx ~/.zshrc'
 
