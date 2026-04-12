@@ -12,7 +12,8 @@ alias t='touch'
 
 alias k='kubectl'
 
-alias gp="git pull"
+alias gl="git pull"
+alias gp="git push"
 alias gcm="git checkout main"
 
 alias s='kubectx'
